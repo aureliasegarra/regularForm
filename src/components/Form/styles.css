@@ -52,6 +52,7 @@
   font-size: 1.3em;
   color: rgb(1, 29, 54);
   margin-top: 1em;
+  padding: 10px;
 }
 
 .invalid_feedback {
