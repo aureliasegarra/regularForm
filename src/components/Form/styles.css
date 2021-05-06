@@ -1,9 +1,61 @@
-.app {
-  width: 500px;
-  margin: 1em auto;
-  text-align: center;
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+  color: rgb(1, 29, 54);
 }
 
-.app img {
-  max-width: 150px;
+.subtitle {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5em;
+  color: rgb(1, 29, 54);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form_group {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+}
+
+.form label {
+  margin-bottom: 0.7em;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 1em;
+  color: rgb(1, 29, 54);
+  
+}
+
+.form input {
+  border-radius: 20px;
+  border: none;
+  background-color: #F4F4F4;
+  padding: 10px 10px;
+  font-size: 0.9em;
+}
+
+.btn {
+  width: 60%;
+  border-radius: 20px;
+  border: none;
+  background-color: #0bf789;
+  font-size: 1.3em;
+  color: rgb(1, 29, 54);
+  margin-top: 1em;
+}
+
+.invalid_feedback {
+  color: rgb(208, 24, 24);
+  font-size: 0.7em;
+  margin-top: 0.7em;
 }
