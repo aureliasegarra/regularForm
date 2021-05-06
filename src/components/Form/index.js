@@ -3,14 +3,13 @@ import React from 'react';
 
 // == Import
 import './styles.css';
-import Form from 'src/components/Form';
 
 // == Composant
-const App = () => (
-  <div className="app">
-    <Form />
+const Form = () => (
+  <div className="form">
+    <h1>form</h1>
   </div>
 );
 
 // == Export
-export default App;
+export default  Form;
